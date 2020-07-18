@@ -1,0 +1,41 @@
+{
+    "cwl_wf_url": "https://github.com/Sage-Bionetworks-Workflows/dockstore-workflow-rnaseq/tree/v1.0.0",
+    "cwl_args_url": "https://raw.githubusercontent.com/Sage-Bionetworks-Workflows/dockstore-workflow-rnaseq/v1.0.0/jobs/rosmap-pcc-paired/job.json",
+    "index_synapseid": "syn20645801",
+    "nthreads": 15,
+    "synapse_parentid": "syn22256634",
+    "synapse_config": {
+        "class": "File",
+        "path": "/etc/synapse/.synapseConfig"
+    },
+    "synapseid": [
+        "syn21592856",
+        "syn21595266",
+        "syn21592868",
+        "syn21595269",
+        "syn21595270",
+        "syn21595272",
+        "syn21595274",
+        "syn21592869",
+        "syn21592870",
+        "syn21592871",
+        "syn21595263",
+        "syn21597095"
+    ],
+    "synapseid_2": [
+        "syn21597100",
+        "syn21598957",
+        "syn21597101",
+        "syn21598975",
+        "syn21598989",
+        "syn21598993",
+        "syn21599002",
+        "syn21597102",
+        "syn21597103",
+        "syn21597104",
+        "syn21598948",
+        "syn21599913"
+    ],
+    "strand_specificity": "SECOND_READ_TRANSCRIPTION_STRAND",
+    "column_number": 3
+}
