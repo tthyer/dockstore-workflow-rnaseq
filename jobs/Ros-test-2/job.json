@@ -1,0 +1,25 @@
+{
+    "cwl_wf_url": "https://github.com/Sage-Bionetworks-Workflows/dockstore-workflow-rnaseq/tree/rostest",
+    "cwl_args_url": "https://raw.githubusercontent.com/Sage-Bionetworks-Workflows/dockstore-workflow-rnaseq/rostest/jobs/Ros-test-2/job.json",
+    "index_synapseid": "syn20645801",
+    "nthreads": 15,
+    "synapse_parentid": "syn22271156",
+    "synapse_config": {
+        "class": "File",
+        "path": "/etc/synapse/.synapseConfig"
+    },
+    "synapseid": [
+        "syn4213159",
+        "syn4213160",
+        "syn4213161",
+        "syn4213162",
+        "syn4213164",
+        "syn4213165",
+        "syn4213166",
+        "syn4213184",
+        "syn4213186",
+        "syn4213188"
+    ],
+    "strand_specificity": "SECOND_READ_TRANSCRIPTION_STRAND",
+    "column_number": 2
+}
