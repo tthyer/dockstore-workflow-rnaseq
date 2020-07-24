@@ -6,12 +6,12 @@
   "log_level": "DEBUG",
   "retry_count": "3",
   "target_time": "1",
-  "max_nodes": "5",
+  "max_nodes": "10",
   "default_disk": "450G",
   "node_types": "m5.4xlarge",
   "node_storage": "500",
   "preemptable_compensation": "0.5",
   "rescue_frequency": "9000",
-  "cwl": "fastq_paired.cwl"
+  "cwl": "bam_paired.cwl"
 }
 
