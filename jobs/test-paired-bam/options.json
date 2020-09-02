@@ -11,5 +11,6 @@
   "preemptable_compensation": "0.5",
   "rescue_frequency": "9000",
   "cluster_name": "tthyer-toil-k8s-test",
-  "max_nodes": "3"
+  "max_nodes": "3",
+  "cwl": "bam_paired.cwl"
 }
