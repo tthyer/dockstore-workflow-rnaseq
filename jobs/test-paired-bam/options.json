@@ -9,5 +9,6 @@
   "node_types": "m5.4xlarge",
   "node_storage": "500",
   "preemptable_compensation": "0.5",
-  "rescue_frequency": "9000"
+  "rescue_frequency": "9000",
+  "cluster_name": "tthyer-toil-k8s-test"
 }
