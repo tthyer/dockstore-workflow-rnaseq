@@ -136,15 +136,15 @@ class ToilRunCommand(ToilCommand):
         batch_system (str): the workflow orchestrator (Mesos)
     """
     provisioner = 'aws'
-    batch_system = 'mesos'
+    batch_system = 'kubernetes'
 
     def __init__(self, options):
         super().__init__(options)
 
         self.command = [
             'toil-cwl-runner',
-            '--provisioner', 'aws',
-            '--batchSystem', 'mesos',
+            #'--provisioner', self.provisioner,
+            '--batchSystem', self.batch_system,
             '--jobStore', options.jobstore,
             '--logLevel', options.log_level,
             '--logFile', options.log_file,
