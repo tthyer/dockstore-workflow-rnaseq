@@ -3,7 +3,7 @@
     "cwl_args_url": "https://raw.githubusercontent.com/tthyer/dockstore-workflow-rnaseq/toil-k8s-experiment/jobs/test-paired-bam/job.json",
     "index_synapseid": "syn22152278",
     "nthreads": 1,
-    "synapse_parentid": "syn22152380",
+    "synapse_parentid": "syn20675525",
     "synapse_config": {
         "class": "File",
         "path": "/tmp/.synapseConfig"
